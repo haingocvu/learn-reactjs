@@ -3,10 +3,7 @@ import React, { Component } from 'react';
 class Header extends Component {
     render() {
         return (
-
-            <div>
-
-                <nav className="navbar navbar-inverse">
+            <nav className="navbar navbar-inverse">
                 <a className="navbar-brand">Title</a>
                 <ul className="nav navbar-nav">
                     <li className="active">
@@ -16,9 +13,7 @@ class Header extends Component {
                         <a>Link</a>
                     </li>
                 </ul>
-                </nav>
-
-            </div>
+            </nav>
         );
     }
 }
